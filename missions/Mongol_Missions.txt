@@ -5,7 +5,12 @@ oir_missions_1 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = OIR
+		OR = {
+			primary_culture = mongol
+			primary_culture = chahar
+			primary_culture = khalkha
+			primary_culture = oirats
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
