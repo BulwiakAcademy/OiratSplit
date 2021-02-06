@@ -1,0 +1,5 @@
+
+namespace = mjl_mongol_events
+normal_or_historical_nations = yes
+
+
