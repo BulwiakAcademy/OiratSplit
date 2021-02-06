@@ -1,2 +1,8 @@
 ﻿l_english:
- mjl_mongolia_movespeed_boost:0 "Movespeed Buff"
+ mjl_mongolia_movespeed_boost:0 "Movespeed Buff" 
+ mjl_populate_altai_mountains:0 "Populate the Altai Mountains"
+ mjl_populate_altai_mountains_desc:0 "As a reward for exemplary services we are going to let our fiercest warriors populate Golden Mountains slopes. The highest honor a warrior can achieve."
+ mjl_populate_altai_mountains_mod:0 "Populate the Altai"
+ desc_mjl_populate_altai_mountains_mod:0 "It's finally time to populate the Golden Mountains."
+ mjl_populate_altai_mountains_effect_tooltip:1 "§G-15%§! local development cost in all §YMountain§! provinces in the §YMongolia§! region."
+ mjl_populate_altai_mountains_mod_revoke_tooltip:0 "Removes §YPopulate the Altai§! modifier from all owned provinces."

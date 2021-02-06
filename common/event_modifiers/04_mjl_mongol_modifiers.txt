@@ -2,3 +2,7 @@ mjl_mongolia_movespeed_boost = {
 	local_hostile_movement_speed = 0.25
 	local_friendly_movement_speed = 0.25
 }
+
+mjl_populate_altai_mountains_mod = {
+	local_development_cost = -0.15
+}
