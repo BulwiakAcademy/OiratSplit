@@ -9247,7 +9247,7 @@ GLH_ideas = {
 YUA_ideas = {
 	start = {
 		global_manpower_modifier = 0.25
-		cavalry_power = 0.20
+		cavalry_power = 0.25
 	}
 	bonus = {
 		governing_capacity_modifier = 0.1
@@ -9261,17 +9261,18 @@ YUA_ideas = {
 		core_creation = -0.25
 	}
 	yua_a_savage_kingdom_holy_and_enchanted = {
-		land_morale = 0.1
+		land_morale = 0.15
 	}
 	yua_the_three_teachings_and_nine_schools_respected = {
 		technology_cost = -0.1
+		horde_unity = 1
 	}
 	yua_keshik_and_weijun = {
 		shock_damage = 0.1
 	}
 	yua_a_thousand_miles_as_if_at_home = {
-		movement_speed = 0.15
-		envoy_travel_time = -0.1
+		movement_speed = 0.2
+		envoy_travel_time = -0.15
 	}
 	yua_sino_mongol_administration = {
 		administrative_efficiency = 0.05
