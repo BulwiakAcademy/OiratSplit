@@ -10,6 +10,8 @@ oir_missions_1 = {
 			primary_culture = chahar
 			primary_culture = khalkha
 			primary_culture = oirats
+			tag = ZUN
+			tag = YUA
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -51,6 +53,8 @@ mongol_missions_1 = {
 			primary_culture = chahar
 			primary_culture = khalkha
 			primary_culture = oirats
+			tag = ZUN
+			tag = YUA
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -220,6 +224,8 @@ mongol_missions_2 = {
 			primary_culture = chahar
 			primary_culture = khalkha
 			primary_culture = oirats
+			tag = ZUN
+			tag = YUA
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -441,6 +447,8 @@ mongol_missions_3 = {
 			primary_culture = chahar
 			primary_culture = khalkha
 			primary_culture = oirats
+			tag = ZUN
+			tag = YUA
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -609,6 +617,8 @@ mongol_missions_4 = {
 			primary_culture = chahar
 			primary_culture = khalkha
 			primary_culture = oirats
+			tag = ZUN
+			tag = YUA
 		}
 		NOT = { map_setup = map_setup_random }
 	}
