@@ -10,3 +10,5 @@
  mjl_estate_tribes_advisors_desc:0 "All clans representatives are invited to the ruler council to advise the [Root.Monarch.GetTitle]."
  mjl_raise_host:0 "Raise Nomadic Host"
  mjl_raise_host_desc:0 "Call the Banners. All of them."
+ estate_tribes_tribal_primacy:0 "Tribal Primacy"
+ estate_tribes_tribal_primacy_desc:0 "Giving the [Root.GetNobilityName] free rein over all clans would strengthen our capacities considerably, even if it may cost us dearly in compensating their contributions."
