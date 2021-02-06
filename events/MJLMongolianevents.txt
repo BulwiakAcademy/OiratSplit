@@ -2,4 +2,41 @@
 namespace = mjl_mongol_events
 normal_or_historical_nations = yes
 
+#Mongolia movespeed boost
+country_event = {
+	id = mjl_mongol_events.1
+	title = none
+	desc = none
+	picture = none
+	hidden = yes
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = BRT
+		NOT = {
+			has_global_flag = mjl_mongolia_movespeed_boost_flag
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			set_global_flag = mjl_mongolia_movespeed_boost_flag
+			mongolia_region = {
+				limit = {
+					is_city = yes
+					NOT = { area = cicigar_area }
+					NOT = { area = eastern_mongolia }
+					NOT = { area = chahar_area }
+				}
+				add_province_modifier = {
+					name = "mjl_mongolia_movespeed_boost"
+					duration = -1
+				}
+			}
+		}
+	}
+	option = { }
+}
 
