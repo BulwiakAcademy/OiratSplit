@@ -89,3 +89,43 @@ mjl_estate_tribes_advisors = {
 		}
 	}
 }
+
+mjl_raise_host = {
+	icon = privilege_raise_host
+	max_absolutism = -5
+	influence = 0.1
+	loyalty = 0.05
+	is_valid = {
+	}
+	on_granted = {
+		if = {
+			limit = {
+				OR = {
+					NOT = { has_country_flag = mjl_raise_host_timer_flag }
+					had_country_flag = { flag = mjl_raise_host_timer_flag days = 3650 }
+				}
+			}
+			random_owned_province = {
+				add_unit_construction = {
+					type = cavalry
+					amount = 5
+					speed = 0.5
+					cost = 0
+				}
+			}
+			set_country_flag = mjl_raise_host_timer_flag
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+		leader_land_shock = 1
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0.5
+			is_absolutism_active = yes
+		}
+	}
+}

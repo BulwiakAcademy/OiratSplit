@@ -8,3 +8,5 @@
  mjl_populate_altai_mountains_mod_revoke_tooltip:0 "Removes §YPopulate the Altai§! modifier from all owned provinces."
  mjl_estate_tribes_advisors:0 "Tribal Counselors"
  mjl_estate_tribes_advisors_desc:0 "All clans representatives are invited to the ruler council to advise the [Root.Monarch.GetTitle]."
+ mjl_raise_host:0 "Raise Nomadic Host"
+ mjl_raise_host_desc:0 "Call the Banners. All of them."
