@@ -27,7 +27,7 @@ country_event = {
 					is_city = yes
 					NOT = { area = cicigar_area }
 					NOT = { area = eastern_mongolia }
-					NOT = { area = chahar_area }
+					NOT = { area = chifeng_area }
 				}
 				add_province_modifier = {
 					name = "mjl_mongolia_movespeed_boost"

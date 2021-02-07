@@ -120,7 +120,7 @@ country_decisions = {
 					NOT = { is_core = ROOT }
 					is_city = yes
 				}
-				add_core = MCH
+				add_permanent_claim = MCH
 			}
 			add_prestige = 25
 			change_tag = MCH
@@ -252,6 +252,7 @@ country_decisions = {
 				change_religion = confucianism
 				add_harmonized_religion = tengri_pagan_reformed
 			}
+			add_government_reform = h_reform_sinicized_horde
 			add_prestige = 10
 			set_country_flag = manchu_dynasty_formed
 			if = {

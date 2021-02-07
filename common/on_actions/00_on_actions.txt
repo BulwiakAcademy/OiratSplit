@@ -13,6 +13,7 @@ on_startup = {
 	}
 	events = {
 		mjl_mongol_events.1
+		foffychina.31
 		muslim_school_events.20 #Pick School
 #		flavor_fra.15000 #Make the French Revolution happen if starting in 1789
 	}
