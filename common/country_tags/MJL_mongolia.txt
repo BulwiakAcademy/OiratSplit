@@ -1,0 +1,8 @@
+#Oirats
+TRG = "countries/Torghut.txt"
+
+
+
+#Thirteen Commanderies
+BJG = "countries/Beijing.txt"
+
