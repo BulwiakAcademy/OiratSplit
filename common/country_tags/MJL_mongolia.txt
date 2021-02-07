@@ -1,5 +1,6 @@
 #Oirats
 TRG = "countries/Torghut.txt"
+OLO = "countries/Olots.txt"
 
 
 
