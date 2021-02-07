@@ -165,6 +165,18 @@ country_decisions = {
 				}
 				add_permanent_claim = YUA
 			}
+			if = {
+				limit = {
+					NOT = {
+						government_rank = 3
+					}
+				}
+				set_government_rank = 3
+			}
+			if = {
+				limit = { has_reform = steppe_horde }
+				add_government_reform = great_mongol_state_reform
+			}
 			add_prestige = 20
 			set_country_flag = formed_yuan_flag
 			if = {
