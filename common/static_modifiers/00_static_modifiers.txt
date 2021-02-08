@@ -1221,8 +1221,8 @@ daimyo_subject = {
 union_subject = {
 }
 
-#aimag
-aimag_subject = {
+#Tumen
+tumen_subject = {
 }
 
 

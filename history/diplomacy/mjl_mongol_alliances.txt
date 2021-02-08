@@ -1,5 +1,5 @@
 dependency = {
-	subject_type = "aimag_vassal"
+	subject_type = "tumen_vassal"
 	first = OIR
 	second = TRG
 	start_date = 1444.1.1
@@ -7,7 +7,7 @@ dependency = {
 }
 
 dependency = {
-	subject_type = "aimag_vassal"
+	subject_type = "tumen_vassal"
 	first = OIR
 	second = OLO
 	start_date = 1444.1.1
@@ -15,7 +15,7 @@ dependency = {
 }
 
 dependency = {
-	subject_type = "aimag_vassal"
+	subject_type = "tumen_vassal"
 	first = OIR
 	second = KOD
 	start_date = 1444.1.1
@@ -23,7 +23,7 @@ dependency = {
 }
 
 dependency = {
-	subject_type = "aimag_vassal"
+	subject_type = "tumen_vassal"
 	first = OIR
 	second = ZUN
 	start_date = 1444.1.1
@@ -31,7 +31,7 @@ dependency = {
 }
 
 dependency = {
-	subject_type = "aimag_vassal"
+	subject_type = "tumen_vassal"
 	first = OIR
 	second = KSD
 	start_date = 1444.1.1
@@ -39,7 +39,7 @@ dependency = {
 }
 
 dependency = {
-	subject_type = "aimag_vassal"
+	subject_type = "tumen_vassal"
 	first = OIR
 	second = DOR
 	start_date = 1444.1.1
@@ -47,7 +47,7 @@ dependency = {
 }
 
 dependency = {
-	subject_type = "aimag_vassal"
+	subject_type = "tumen_vassal"
 	first = OIR
 	second = KRG
 	start_date = 1444.1.1
