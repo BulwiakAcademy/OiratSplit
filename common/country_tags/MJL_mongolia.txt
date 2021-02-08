@@ -5,5 +5,5 @@ DOR = "countries/Dorbet.txt"
 ALT = "countries/Altai.txt"
 KOD = "countries/Khoid.txt"
 KCN = "countries/Kharchin.txt"
-
+KRG = "countries/Kyrgyz.txt"
 

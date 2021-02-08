@@ -49,7 +49,7 @@ dependency = {
 dependency = {
 	subject_type = "aimag_vassal"
 	first = OIR
-	second = TRG
+	second = KRG
 	start_date = 1444.1.1
 	end_date = 1455.1.1
 }
