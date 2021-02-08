@@ -96,24 +96,21 @@ country_decisions = {
 					}
 				}
 			}
-			if = {
-				limit = {
-					has_dlc = "Mandate of Heaven"
-					any_country = {
-						is_emperor_of_china = yes
+			OR = {
+				total_development = 1000
+				if = {
+					limit = {
+						has_dlc = "Common Sense"
 					}
+					government_rank = 3
 				}
-				is_emperor_of_china = yes
-			}
-			#else_if = {
-			#	limit = {
-			#		has_dlc = "Common Sense"
-			#	}
-			#	government_rank = 3
-			#}
-			else = {
-				#total_development = 1000
-				total_development = 500
+				if = {
+					limit = {
+						has_dlc = "Mandate of Heaven"
+					}
+					is_emperor_of_china = yes
+				}
+				has_reform = great_mongol_state_reform
 			}
 		}
 		effect = {
@@ -172,10 +169,6 @@ country_decisions = {
 					}
 				}
 				set_government_rank = 3
-			}
-			if = {
-				limit = { has_reform = steppe_horde }
-				add_government_reform = great_mongol_state_reform
 			}
 			swap_non_generic_missions = yes
 			add_prestige = 20
