@@ -1,0 +1,49 @@
+country_decisions = {
+	mjl_rise_of_zhungars = {
+		major = yes
+		potential = {
+			tag = ZUN
+		}
+		allow = {
+			is_at_war = no
+			total_development = 100
+			num_of_owned_provinces_with = {
+				superregion = china_superregion
+				is_core = ROOT
+				value = 15
+			}
+		}
+		effect = {
+		}
+	}
+	mjl_become_mongol_khagan = {
+		major = yes
+		potential = {
+			has_reform = steppe_horde
+			OR = {
+				primary_culture = kirgiz
+				primary_culture = oirats
+				primary_culture = mongol
+				primary_culture = chahar
+				primary_culture = khalkha
+				primary_culture = uyghur
+			}
+		}
+		allow = {
+			is_at_war = no
+			total_development = 100
+			num_of_owned_provinces_with = {
+				superregion = china_superregion
+				is_core = ROOT
+				value = 15
+			}
+		}
+		effect = {
+			if = {
+				limit = { has_reform = steppe_horde }
+				add_government_reform = great_mongol_state_reform
+			}
+		}
+	}
+
+}
