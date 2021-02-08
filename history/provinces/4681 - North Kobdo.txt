@@ -1,6 +1,6 @@
-owner = TRG		# The Oirads united much of Mongolia
-controller = TRG
-add_core = TRG
+owner = DOR
+controller = DOR
+add_core = DOR
 #owner = OIR		# The Oirads united much of Mongolia
 #controller = OIR
 #add_core = OIR

@@ -1,6 +1,6 @@
 dependency = {
 	subject_type = "aimag_vassal"
-	first = ZUN
+	first = OIR
 	second = TRG
 	start_date = 1444.1.1
 	end_date = 1455.1.1
@@ -8,8 +8,48 @@ dependency = {
 
 dependency = {
 	subject_type = "aimag_vassal"
-	first = ZUN
+	first = OIR
 	second = OLO
+	start_date = 1444.1.1
+	end_date = 1455.1.1
+}
+
+dependency = {
+	subject_type = "aimag_vassal"
+	first = OIR
+	second = KOD
+	start_date = 1444.1.1
+	end_date = 1455.1.1
+}
+
+dependency = {
+	subject_type = "aimag_vassal"
+	first = OIR
+	second = ZUN
+	start_date = 1444.1.1
+	end_date = 1455.1.1
+}
+
+dependency = {
+	subject_type = "aimag_vassal"
+	first = OIR
+	second = KSD
+	start_date = 1444.1.1
+	end_date = 1455.1.1
+}
+
+dependency = {
+	subject_type = "aimag_vassal"
+	first = OIR
+	second = DOR
+	start_date = 1444.1.1
+	end_date = 1455.1.1
+}
+
+dependency = {
+	subject_type = "aimag_vassal"
+	first = OIR
+	second = TRG
 	start_date = 1444.1.1
 	end_date = 1455.1.1
 }

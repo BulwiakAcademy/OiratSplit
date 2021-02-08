@@ -1,9 +1,6 @@
-owner = DOR
-controller = DOR
-add_core = DOR
-#owner = OIR
-#controller = OIR
-#add_core = OIR
+owner = OIR
+controller = OIR
+add_core = OIR
 culture = khalkha
 religion = tengri_pagan_reformed
 capital = "Zakhchin"

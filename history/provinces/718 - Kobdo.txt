@@ -1,11 +1,8 @@
 #718 - Govi Altay
 
-#owner = OIR		# The Oirads united much of Mongolia
-#controller = OIR
-#add_core = OIR
-owner = ZUN
-controller = ZUN
-add_core = ZUN
+owner = OIR		# The Oirads united much of Mongolia
+controller = OIR
+add_core = OIR
 culture = oirats
 religion = tengri_pagan_reformed
 capital = "Kobdo"

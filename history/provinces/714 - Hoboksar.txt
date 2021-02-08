@@ -1,8 +1,8 @@
 #714 - Dzungaria
 
-owner = KOD
-controller = KOD
-add_core = KOD
+owner = TRG
+controller = TRG
+add_core = TRG
 #owner = OIR
 #controller = OIR
 #add_core = OIR
@@ -15,7 +15,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 2
 is_city = yes
-add_core = CHG
+#add_core = CHG
 
 
 
