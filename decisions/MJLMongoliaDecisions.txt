@@ -6,14 +6,46 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
+			is_free_or_tributary_trigger = yes
 			total_development = 100
-			num_of_owned_provinces_with = {
-				superregion = china_superregion
+			has_reform = steppe_horde
+			OR = {
+				tag = OIR
+				NOT = { exists = OIR }
+				OIR = {
+					is_subject = yes
+				}
+			}
+			owns_core_province = 718 #Kobdo
+			owns_core_province = 715 #Urumqi
+			zungaria_area = {
+				type = all
+				owned_by = ROOT
 				is_core = ROOT
-				value = 15
+			}
+			north_zungaria = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
 			}
 		}
 		effect = {
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			override_country_name = ZUN_Kingdom
+			every_province = {
+				limit = {
+					culture = oirats
+					continent = asia
+					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ZUN
+			}
+			add_prestige = 25
 		}
 	}
 	mjl_become_mongol_khagan = {
