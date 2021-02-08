@@ -1221,8 +1221,8 @@ daimyo_subject = {
 union_subject = {
 }
 
-#tumed
-tumed_subject = {
+#aimag
+aimag_subject = {
 }
 
 

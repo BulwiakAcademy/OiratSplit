@@ -1,5 +1,5 @@
 dependency = {
-	subject_type = "tumed_vassal"
+	subject_type = "aimag_vassal"
 	first = ZUN
 	second = TRG
 	start_date = 1444.1.1
@@ -7,7 +7,7 @@ dependency = {
 }
 
 dependency = {
-	subject_type = "tumed_vassal"
+	subject_type = "aimag_vassal"
 	first = ZUN
 	second = OLO
 	start_date = 1444.1.1
