@@ -12,3 +12,7 @@
  mjl_raise_host_desc:0 "Call the Banners. All of them."
  estate_tribes_tribal_primacy:0 "Tribal Primacy"
  estate_tribes_tribal_primacy_desc:0 "Giving the [Root.GetNobilityName] free rein over all clans would strengthen our capacities considerably, even if it may cost us dearly in compensating their contributions."
+ tumed_vassal_title:0 "Tumed"
+ tumed_vassal_title_plural:0 "Tumeds"
+ tumed_vassal_long_desc:0 "A Tumed subject must follow their overlord to war, cannot make certain diplomatic actions and will pay a fraction of his income to his overlord. Tumeds can also fight  with each other."
+ tumed_vassal_is_our:0 "$NAME|Y$ is our Tumed Vassal."

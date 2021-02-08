@@ -1,0 +1,15 @@
+dependency = {
+	subject_type = "tumed_vassal"
+	first = ZUN
+	second = TRG
+	start_date = 1444.1.1
+	end_date = 1455.1.1
+}
+
+dependency = {
+	subject_type = "tumed_vassal"
+	first = ZUN
+	second = OLO
+	start_date = 1444.1.1
+	end_date = 1455.1.1
+}

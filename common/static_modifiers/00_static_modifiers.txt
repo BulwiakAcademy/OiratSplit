@@ -1221,6 +1221,11 @@ daimyo_subject = {
 union_subject = {
 }
 
+#tumed
+tumed_subject = {
+}
+
+
 all_nations = {
 	global_tax_income = 12
 	land_forcelimit	= 6

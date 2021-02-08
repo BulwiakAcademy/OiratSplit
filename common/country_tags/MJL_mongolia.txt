@@ -2,8 +2,3 @@
 TRG = "countries/Torghut.txt"
 OLO = "countries/Olots.txt"
 
-
-
-#Thirteen Commanderies
-BJG = "countries/Beijing.txt"
-
