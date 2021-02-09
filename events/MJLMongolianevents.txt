@@ -65,6 +65,14 @@ country_event = {
 			add_liberty_desire = 50
 			country_event = { id = mjl_mongol_events.3 }
 		}
+		if = {
+			limit = {
+				KHA = {
+					is_subject_of = ROOT
+				}
+			}
+			free_vassal = KHA
+		}
 	}
 }
 #Esen Death Subjects
