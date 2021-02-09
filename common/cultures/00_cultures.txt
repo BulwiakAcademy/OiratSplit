@@ -3658,7 +3658,7 @@ altaic = {
 		}
 	}
 	kirgiz = {
-		primary = CHG
+		primary = KRG
 		male_names = {
 			Abdul-Karim Abdul-Latif Abdul-Rashîd Abdullah Ahmad Alghu Ali Baraq Bayan Quli Buqa Temür Buzan 
 			Changshi Danishmendji Dost Muhammad Dughlat Duwa Duwa Temür Eljigidey Esen Buqa Ilbars Ilyas Ismail 
@@ -3741,7 +3741,7 @@ altaic = {
 		"Chagatay" "Edigüid" "Giray" "Borjigin" "Shaybanid" "Janid" "Mangit"
 		Kirghiz
 		# CKII - KHANTY
-		"Sibirid" "Narima" "Mansi" "Khantys"
+		"Sibirid" "Narima" "Mansi" "Khantys" "Ji'baw'cha"
 	}
 }
 	
