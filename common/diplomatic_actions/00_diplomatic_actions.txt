@@ -86,10 +86,21 @@
 # knowledge_sharing
 
 declarewar = {
+	#commandery
 	condition = {
 		tooltip = h_tooltip_commanderywar
 		potential = {
 			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
+	#oirat
+	condition = {
+		tooltip = mjl_tooltip_oiratwar
+		potential = {
+			ROOT = { has_country_flag = mjl_esen_choros_death_flag }
 		}
 		allow = {
 			always = no
@@ -106,6 +117,7 @@ royal_marriage = {
 			NOT = { war_with = FROM }
 		}
 	}
+	#commandery
 	condition = {
 		tooltip = h_tooltip_marrycommandery
 		potential = {
@@ -122,6 +134,28 @@ royal_marriage = {
 		tooltip = h_tooltip_commanderymarry
 		potential = {
 			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
+	#oirat
+	condition = {
+		tooltip = mjl_tooltip_marryoirat
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					has_country_flag = mjl_esen_choros_death_flag
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = mjl_tooltip_oiratmarry
+		potential = {
+			ROOT = { has_country_flag = mjl_esen_choros_death_flag }
 		}
 		allow = {
 			always = no
@@ -214,6 +248,7 @@ vassalaction = {
 }
 
 guaranteeaction = {
+	#commandery
 	condition = {
 		tooltip = h_tooltip_guaranteecommandery
 		potential = {
@@ -235,9 +270,32 @@ guaranteeaction = {
 			always = no
 		}
 	}
+	#Oirat
+	condition = {
+		tooltip = mjl_tooltip_guaranteeoirat
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					has_country_flag = mjl_esen_choros_death_flag
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = mjl_tooltip_coiratguarantee
+		potential = {
+			ROOT = { has_country_flag = mjl_esen_choros_death_flag }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 warningaction = {
+	#comandery
 	condition = {
 		tooltip = h_tooltip_commanderywarn
 		potential = {
@@ -247,14 +305,35 @@ warningaction = {
 			always = no
 		}
 	}
+	#oirat
+	condition = {
+		tooltip = mjl_tooltip_oiratwarn
+		potential = {
+			ROOT = { has_country_flag = mjl_esen_choros_death_flag }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 
 threaten_war = {
+	#commandery
 	condition = {
 		tooltip = h_tooltip_commanderythreaten
 		potential = {
 			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
+	#Oirat
+	condition = {
+		tooltip = mjl_tooltip_oiratthreaten
+		potential = {
+			ROOT = { has_country_flag = mjl_esen_choros_death_flag }
 		}
 		allow = {
 			always = no
@@ -294,6 +373,7 @@ form_coalition = {
 			}
 		}
 	}
+	#commandery
 	condition = {
 		tooltip = h_tooltip_commanderycoalition
 		potential = {
@@ -303,9 +383,20 @@ form_coalition = {
 			always = no
 		}
 	}
+	#oirat
+	condition = {
+		tooltip = mjl_tooltip_oiratcoalition
+		potential = {
+			ROOT = { has_country_flag = mjl_esen_choros_death_flag }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 allianceaction = {
+	#Commandery
 	condition = {
 		tooltip = h_tooltip_allycommandery
 		potential = {
@@ -327,9 +418,32 @@ allianceaction = {
 			always = no
 		}
 	}
+	#oirat
+	condition = {
+		tooltip = mjl_tooltip_allyoirat
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					has_country_flag = mjl_esen_choros_death_flag
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = mjl_tooltip_oiratally
+		potential = {
+			ROOT = { has_country_flag = mjl_esen_choros_death_flag }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 support_independence_action = {
+	#commandery
 	condition = {
 		tooltip = h_tooltip_commanderysupport
 		potential = {
@@ -339,9 +453,20 @@ support_independence_action = {
 			always = no
 		}
 	}
+	#oirat
+	condition = {
+		tooltip = mjl_tooltip_oiratsupport
+		potential = {
+			ROOT = { has_country_flag = mjl_esen_choros_death_flag }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 enforce_peace = {
+	#commandery
 	condition = {
 		tooltip = h_tooltip_commanderyenforce
 		potential = {
@@ -351,8 +476,20 @@ enforce_peace = {
 			always = no
 		}
 	}
+	#oirat
+	condition = {
+		tooltip = mjl_tooltip_oiratenforce
+		potential = {
+			ROOT = { has_country_flag = mjl_esen_choros_death_flag }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
+
 warsubsidy = {
+	# commandery
 	condition = {
 		tooltip = h_tooltip_commanderysubsidy
 		potential = {
@@ -362,8 +499,20 @@ warsubsidy = {
 			always = no
 		}
 	}
+	# oirat
+	condition = {
+		tooltip = mjl_tooltip_oiratsubsidy
+		potential = {
+			ROOT = { has_country_flag = mjl_esen_choros_death_flag }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
+
 offerloan = {
+	#commandery
 	condition = {
 		tooltip = h_tooltip_commanderyloan
 		potential = {
@@ -373,12 +522,34 @@ offerloan = {
 			always = no
 		}
 	}
+	#oirat
+	condition = {
+		tooltip = mjl_tooltip_oiratloan
+		potential = {
+			ROOT = { has_country_flag = mjl_esen_choros_death_flag }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
+
 giftaction = {
+	#commandery
 	condition = {
 		tooltip = h_tooltip_commanderygift
 		potential = {
 			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
+	#oirat
+	condition = {
+		tooltip = mjl_tooltip_oiratgift
+		potential = {
+			ROOT = { has_country_flag = mjl_esen_choros_death_flag }
 		}
 		allow = {
 			always = no
