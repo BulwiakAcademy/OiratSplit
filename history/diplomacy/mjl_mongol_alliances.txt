@@ -62,11 +62,18 @@ dependency = {
 	end_date = 1455.1.1
 }
 
+dependency = {
+	subject_type = "tumen_vassal"
+	first = OIR
+	second = HMI
+	start_date = 1444.1.1
+	end_date = 1455.1.1
+}
 
 dependency = {
 	subject_type = "tumen_vassal"
 	first = OIR
-	second = BRT
+	second = TUM
 	start_date = 1444.1.1
 	end_date = 1455.1.1
 }
