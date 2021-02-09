@@ -1223,6 +1223,7 @@ union_subject = {
 
 #Tumen
 tumen_subject = {
+	land_forcelimit = 1
 }
 
 
